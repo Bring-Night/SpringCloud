@@ -1,0 +1,13 @@
+##eureka集群配置加载配饰文件
+spring:
+  application:
+    name: eureka-server
+  profiles:
+    active: server1
+##eureka访问账号密码
+security:
+  basic:
+    enabled: true
+  user:
+    name: zhy  # 用户名
+    password: zhy   # 用户密码
