@@ -4,6 +4,7 @@ spring:
     name: eureka-server
   profiles:
     active: server1
+
 ##eureka访问账号密码
 security:
   basic:
@@ -11,3 +12,4 @@ security:
   user:
     name: zhy  # 用户名
     password: zhy   # 用户密码
+
